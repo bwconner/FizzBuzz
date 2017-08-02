@@ -1,0 +1,28 @@
+body {
+	text-align: center;
+}
+
+#error {
+	color: red;
+	display: none;
+	margin: 20px auto;
+}
+
+	#error.show {
+		display: block;
+	}
+
+form {
+	margin: 20px auto;
+	width: 80%;
+}
+
+label, input {
+	float: left;
+	width: 50%;
+}
+#submit {
+	float: none;
+	margin: 20px auto;
+	width: 50%;
+}
